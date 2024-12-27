@@ -33,9 +33,9 @@ let Landing = () => {
                 <div class="card text-bg-dark">
                     <img src="motor.png" class="card-img" alt="..." />
                     <div class="card-img-overlay">
-                        <h5 class="card-title">NEW PRODUCT is here!</h5>
+                        {/* <h5 class="card-title">NEW PRODUCT is here!</h5>
                         <p class="card-text">Get this product before sold!</p>
-                        <button class="btn btn-light btn-outline-success" type="submit">Shop now!</button>
+                        <button class="btn btn-light btn-outline-success" type="submit">Shop now!</button> */}
                     </div>
                 </div>
                 <div className="container">
@@ -68,13 +68,14 @@ let SaleCard = () => {
     return (
         <div className="container mt-4">
             <div className="d-flex overflow-auto card-group">
-                <div class="row row-cols-1 row-cols-md-5 g-4">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
                         <div className="card h-100" style={{ width: "200px" }}>
                             <img src="vespa.png" class="card-img-top" alt="..."/>
                             <div className="card-body">
                                 <h5 className="card-title">VESPA LX 125</h5>
                                 <p className="card-text"> Some quick example text. </p>
+                                <button class="btn btn-primary" type="submit">Buy</button>
                             </div>
                         </div>
                     </div>
@@ -84,6 +85,7 @@ let SaleCard = () => {
                             <div className="card-body">
                                 <h5 className="card-title">VESPA SPRINT 150 ABS</h5>
                                 <p class="card-text">The sporty elegence for your bold city lifestyle</p>
+                                <button class="btn btn-primary" type="submit">Buy</button>
                             </div>
                         </div>
                     </div>
@@ -93,6 +95,7 @@ let SaleCard = () => {
                             <div className="card-body">
                                 <h5 className="card-title">Vespa 946 Dragon</h5>
                                 <p className="card-text">A true masterpiece of Italian manufacturing, the Vespa 946 Dragon is a collector's item, a limited edition numbered series of 1888</p>
+                                <button class="btn btn-primary" type="submit">Buy</button>
                             </div>
                         </div>
                     </div>
@@ -102,6 +105,7 @@ let SaleCard = () => {
                             <div className="card-body">
                                 <h5 className="card-title">VESPA SPRINT 150 ABS</h5>
                                 <p class="card-text">The sporty elegence for your bold city lifestyle</p>
+                                <button class="btn btn-primary" type="submit">Buy</button>
                             </div>
                         </div>
                     </div>
@@ -111,6 +115,7 @@ let SaleCard = () => {
                             <div className="card-body">
                                 <h5 className="card-title">VESPA LX 125</h5>
                                 <p className="card-text">Some quick example text.</p>
+                                <button class="btn btn-primary" type="submit">Buy</button>
                             </div>
                         </div>
                     </div>
@@ -120,6 +125,7 @@ let SaleCard = () => {
                             <div className="card-body">
                                 <h5 className="card-title">Vespa 946 Dragon</h5>
                                 <p className="card-text">A true masterpiece of Italian manufacturing, the Vespa 946 Dragon is a collector's item, a limited edition numbered series of 1888</p>
+                                <button class="btn btn-primary" type="submit">Buy</button>
                             </div>
                         </div>
                     </div>
@@ -133,13 +139,14 @@ let NewCard = () => {
     return (
         <div className="container mt-4">
             <div className="d-flex overflow-auto card-group">
-                <div class="row row-cols-1 row-cols-md-5 g-4">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
                         <div className="card h-100" style={{ width: "200px" }}>
                             <img src="vespa.png" class="card-img-top" alt="..."/>
                             <div className="card-body">
                                 <h5 className="card-title">VESPA LX 125</h5>
                                 <p className="card-text"> Some quick example text. </p>
+                                <button class="btn btn-primary" type="submit">Buy</button>
                             </div>
                         </div>
                     </div>
@@ -149,6 +156,7 @@ let NewCard = () => {
                             <div className="card-body">
                                 <h5 className="card-title">VESPA SPRINT 150 ABS</h5>
                                 <p class="card-text">The sporty elegence for your bold city lifestyle</p>
+                                <button class="btn btn-primary" type="submit">Buy</button>
                             </div>
                         </div>
                     </div>
@@ -158,6 +166,7 @@ let NewCard = () => {
                             <div className="card-body">
                                 <h5 className="card-title">VESPA LX 125</h5>
                                 <p className="card-text">Some quick example text.</p>
+                                <button class="btn btn-primary" type="submit">Buy</button>
                             </div>
                         </div>
                     </div>
@@ -167,6 +176,7 @@ let NewCard = () => {
                             <div className="card-body">
                                 <h5 className="card-title">VESPA SPRINT 150 ABS</h5>
                                 <p class="card-text">The sporty elegence for your bold city lifestyle</p>
+                                <button class="btn btn-primary" type="submit">Buy</button>
                             </div>
                         </div>
                     </div>
@@ -176,6 +186,7 @@ let NewCard = () => {
                             <div className="card-body">
                                 <h5 className="card-title">VESPA LX 125</h5>
                                 <p className="card-text">Some quick example text.</p>
+                                <button class="btn btn-primary" type="submit">Buy</button>
                             </div>
                         </div>
                     </div>
