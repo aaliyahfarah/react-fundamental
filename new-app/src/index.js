@@ -9,6 +9,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Landing />
+    {/* <LandingList/> */}
   </React.StrictMode>
 );
 
